@@ -14,6 +14,8 @@
 		06E929E41C72F7F500B4239D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E929E21C72F7F500B4239D /* LaunchScreen.storyboard */; };
 		06E929EF1C72F7F600B4239D /* chokinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929EE1C72F7F600B4239D /* chokinTests.swift */; };
 		06E929FA1C72F7F600B4239D /* chokinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929F91C72F7F600B4239D /* chokinUITests.swift */; };
+		06E92A081C73165600B4239D /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E92A071C73165600B4239D /* SetViewController.swift */; };
+		06E92A0A1C7316CF00B4239D /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E92A091C7316CF00B4239D /* GraphViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		06E929F51C72F7F600B4239D /* chokinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chokinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E929F91C72F7F600B4239D /* chokinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chokinUITests.swift; sourceTree = "<group>"; };
 		06E929FB1C72F7F600B4239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E92A071C73165600B4239D /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		06E92A091C7316CF00B4239D /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				06E929D91C72F7F500B4239D /* AppDelegate.swift */,
-				06E929DB1C72F7F500B4239D /* ViewController.swift */,
 				06E929DD1C72F7F500B4239D /* Main.storyboard */,
+				06E929DB1C72F7F500B4239D /* ViewController.swift */,
+				06E92A091C7316CF00B4239D /* GraphViewController.swift */,
+				06E92A071C73165600B4239D /* SetViewController.swift */,
 				06E929E01C72F7F500B4239D /* Assets.xcassets */,
 				06E929E21C72F7F500B4239D /* LaunchScreen.storyboard */,
 				06E929E51C72F7F500B4239D /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06E929DC1C72F7F500B4239D /* ViewController.swift in Sources */,
+				06E92A0A1C7316CF00B4239D /* GraphViewController.swift in Sources */,
+				06E92A081C73165600B4239D /* SetViewController.swift in Sources */,
 				06E929DA1C72F7F500B4239D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +490,7 @@
 				06E92A001C72F7F600B4239D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06E92A011C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				06E92A031C72F7F600B4239D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06E92A041C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				06E92A061C72F7F600B4239D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
