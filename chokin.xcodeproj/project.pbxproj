@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E929DA1C72F7F500B4239D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929D91C72F7F500B4239D /* AppDelegate.swift */; };
+		06E929DC1C72F7F500B4239D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929DB1C72F7F500B4239D /* ViewController.swift */; };
+		06E929DF1C72F7F500B4239D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E929DD1C72F7F500B4239D /* Main.storyboard */; };
+		06E929E11C72F7F500B4239D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E929E01C72F7F500B4239D /* Assets.xcassets */; };
+		06E929E41C72F7F500B4239D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E929E21C72F7F500B4239D /* LaunchScreen.storyboard */; };
+		06E929EF1C72F7F600B4239D /* chokinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929EE1C72F7F600B4239D /* chokinTests.swift */; };
+		06E929FA1C72F7F600B4239D /* chokinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929F91C72F7F600B4239D /* chokinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06E929EB1C72F7F600B4239D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E929CE1C72F7F500B4239D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E929D51C72F7F500B4239D;
+			remoteInfo = chokin;
+		};
+		06E929F61C72F7F600B4239D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E929CE1C72F7F500B4239D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E929D51C72F7F500B4239D;
+			remoteInfo = chokin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E929D61C72F7F500B4239D /* chokin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chokin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E929D91C72F7F500B4239D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06E929DB1C72F7F500B4239D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06E929DE1C72F7F500B4239D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06E929E01C72F7F500B4239D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06E929E31C72F7F500B4239D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06E929E51C72F7F500B4239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E929EA1C72F7F600B4239D /* chokinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chokinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E929EE1C72F7F600B4239D /* chokinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chokinTests.swift; sourceTree = "<group>"; };
+		06E929F01C72F7F600B4239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E929F51C72F7F600B4239D /* chokinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chokinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E929F91C72F7F600B4239D /* chokinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chokinUITests.swift; sourceTree = "<group>"; };
+		06E929FB1C72F7F600B4239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06E929D31C72F7F500B4239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929E71C72F7F600B4239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929F21C72F7F600B4239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E929CD1C72F7F500B4239D = {
+			isa = PBXGroup;
+			children = (
+				06E929D81C72F7F500B4239D /* chokin */,
+				06E929ED1C72F7F600B4239D /* chokinTests */,
+				06E929F81C72F7F600B4239D /* chokinUITests */,
+				06E929D71C72F7F500B4239D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06E929D71C72F7F500B4239D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E929D61C72F7F500B4239D /* chokin.app */,
+				06E929EA1C72F7F600B4239D /* chokinTests.xctest */,
+				06E929F51C72F7F600B4239D /* chokinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06E929D81C72F7F500B4239D /* chokin */ = {
+			isa = PBXGroup;
+			children = (
+				06E929D91C72F7F500B4239D /* AppDelegate.swift */,
+				06E929DB1C72F7F500B4239D /* ViewController.swift */,
+				06E929DD1C72F7F500B4239D /* Main.storyboard */,
+				06E929E01C72F7F500B4239D /* Assets.xcassets */,
+				06E929E21C72F7F500B4239D /* LaunchScreen.storyboard */,
+				06E929E51C72F7F500B4239D /* Info.plist */,
+			);
+			path = chokin;
+			sourceTree = "<group>";
+		};
+		06E929ED1C72F7F600B4239D /* chokinTests */ = {
+			isa = PBXGroup;
+			children = (
+				06E929EE1C72F7F600B4239D /* chokinTests.swift */,
+				06E929F01C72F7F600B4239D /* Info.plist */,
+			);
+			path = chokinTests;
+			sourceTree = "<group>";
+		};
+		06E929F81C72F7F600B4239D /* chokinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06E929F91C72F7F600B4239D /* chokinUITests.swift */,
+				06E929FB1C72F7F600B4239D /* Info.plist */,
+			);
+			path = chokinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06E929D51C72F7F500B4239D /* chokin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E929FE1C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokin" */;
+			buildPhases = (
+				06E929D21C72F7F500B4239D /* Sources */,
+				06E929D31C72F7F500B4239D /* Frameworks */,
+				06E929D41C72F7F500B4239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chokin;
+			productName = chokin;
+			productReference = 06E929D61C72F7F500B4239D /* chokin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06E929E91C72F7F600B4239D /* chokinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E92A011C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinTests" */;
+			buildPhases = (
+				06E929E61C72F7F600B4239D /* Sources */,
+				06E929E71C72F7F600B4239D /* Frameworks */,
+				06E929E81C72F7F600B4239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E929EC1C72F7F600B4239D /* PBXTargetDependency */,
+			);
+			name = chokinTests;
+			productName = chokinTests;
+			productReference = 06E929EA1C72F7F600B4239D /* chokinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06E929F41C72F7F600B4239D /* chokinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E92A041C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinUITests" */;
+			buildPhases = (
+				06E929F11C72F7F600B4239D /* Sources */,
+				06E929F21C72F7F600B4239D /* Frameworks */,
+				06E929F31C72F7F600B4239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06E929F71C72F7F600B4239D /* PBXTargetDependency */,
+			);
+			name = chokinUITests;
+			productName = chokinUITests;
+			productReference = 06E929F51C72F7F600B4239D /* chokinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06E929CE1C72F7F500B4239D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yuki Sakata";
+				TargetAttributes = {
+					06E929D51C72F7F500B4239D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					06E929E91C72F7F600B4239D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 06E929D51C72F7F500B4239D;
+					};
+					06E929F41C72F7F600B4239D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 06E929D51C72F7F500B4239D;
+					};
+				};
+			};
+			buildConfigurationList = 06E929D11C72F7F500B4239D /* Build configuration list for PBXProject "chokin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06E929CD1C72F7F500B4239D;
+			productRefGroup = 06E929D71C72F7F500B4239D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06E929D51C72F7F500B4239D /* chokin */,
+				06E929E91C72F7F600B4239D /* chokinTests */,
+				06E929F41C72F7F600B4239D /* chokinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E929D41C72F7F500B4239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E929E41C72F7F500B4239D /* LaunchScreen.storyboard in Resources */,
+				06E929E11C72F7F500B4239D /* Assets.xcassets in Resources */,
+				06E929DF1C72F7F500B4239D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929E81C72F7F600B4239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929F31C72F7F600B4239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06E929D21C72F7F500B4239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E929DC1C72F7F500B4239D /* ViewController.swift in Sources */,
+				06E929DA1C72F7F500B4239D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929E61C72F7F600B4239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E929EF1C72F7F600B4239D /* chokinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06E929F11C72F7F600B4239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E929FA1C72F7F600B4239D /* chokinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06E929EC1C72F7F600B4239D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E929D51C72F7F500B4239D /* chokin */;
+			targetProxy = 06E929EB1C72F7F600B4239D /* PBXContainerItemProxy */;
+		};
+		06E929F71C72F7F600B4239D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E929D51C72F7F500B4239D /* chokin */;
+			targetProxy = 06E929F61C72F7F600B4239D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06E929DD1C72F7F500B4239D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E929DE1C72F7F500B4239D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06E929E21C72F7F500B4239D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06E929E31C72F7F500B4239D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06E929FC1C72F7F600B4239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06E929FD1C72F7F600B4239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06E929FF1C72F7F600B4239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chokin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06E92A001C72F7F600B4239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chokin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06E92A021C72F7F600B4239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chokinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chokin.app/chokin";
+			};
+			name = Debug;
+		};
+		06E92A031C72F7F600B4239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chokinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chokin.app/chokin";
+			};
+			name = Release;
+		};
+		06E92A051C72F7F600B4239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chokinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chokin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		06E92A061C72F7F600B4239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chokinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yuki-Sakata.chokinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chokin;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E929D11C72F7F500B4239D /* Build configuration list for PBXProject "chokin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E929FC1C72F7F600B4239D /* Debug */,
+				06E929FD1C72F7F600B4239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06E929FE1C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E929FF1C72F7F600B4239D /* Debug */,
+				06E92A001C72F7F600B4239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06E92A011C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E92A021C72F7F600B4239D /* Debug */,
+				06E92A031C72F7F600B4239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06E92A041C72F7F600B4239D /* Build configuration list for PBXNativeTarget "chokinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E92A051C72F7F600B4239D /* Debug */,
+				06E92A061C72F7F600B4239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06E929CE1C72F7F500B4239D /* Project object */;
+}
