@@ -16,6 +16,7 @@
 		06E929FA1C72F7F600B4239D /* chokinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E929F91C72F7F600B4239D /* chokinUITests.swift */; };
 		06E92A081C73165600B4239D /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E92A071C73165600B4239D /* SetViewController.swift */; };
 		06E92A0A1C7316CF00B4239D /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E92A091C7316CF00B4239D /* GraphViewController.swift */; };
+		06E92A0C1C748A3700B4239D /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E92A0B1C748A3700B4239D /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		06E929FB1C72F7F600B4239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06E92A071C73165600B4239D /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 		06E92A091C7316CF00B4239D /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		06E92A0B1C748A3700B4239D /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				06E929D91C72F7F500B4239D /* AppDelegate.swift */,
 				06E929DD1C72F7F500B4239D /* Main.storyboard */,
 				06E929DB1C72F7F500B4239D /* ViewController.swift */,
+				06E92A0B1C748A3700B4239D /* CalculatorViewController.swift */,
 				06E92A091C7316CF00B4239D /* GraphViewController.swift */,
 				06E92A071C73165600B4239D /* SetViewController.swift */,
 				06E929E01C72F7F500B4239D /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E92A0C1C748A3700B4239D /* CalculatorViewController.swift in Sources */,
 				06E929DC1C72F7F500B4239D /* ViewController.swift in Sources */,
 				06E92A0A1C7316CF00B4239D /* GraphViewController.swift in Sources */,
 				06E92A081C73165600B4239D /* SetViewController.swift in Sources */,
