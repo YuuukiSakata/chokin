@@ -8,28 +8,91 @@
 
 import UIKit
 
-class CalculatorViewController: UIViewController {
-
+class ViewController: UIViewController {
+    
+    
+    @IBOutlet var label: UILabel!
+    
+    
+    var number: Int = 0
+    var number2: Int = 0
+    var oparation: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func select1(){
+        number = number*10 + 1
+        label.text = String(number)
     }
-    */
-
+    
+    @IBAction func select2(){
+        number = number*10 + 2
+        label.text = String(number)
+    }
+    
+    @IBAction func select3(){
+        number = number*10 + 3
+        label.text = String(number)
+    }
+    
+    @IBAction func select4(){
+        number = number*10 + 4
+        label.text = String(number)
+    }
+    
+    @IBAction func select5(){
+        number = number*10 + 5
+        label.text = String(number)
+    }
+    
+    @IBAction func select6(){
+        number = number*10 + 6
+        label.text = String(number)
+    }
+    
+    @IBAction func select7(){
+        number = number*10 + 7
+        label.text = String(number)
+    }
+    
+    @IBAction func select8(){
+        number = number*10 + 8
+        label.text = String(number)
+    }
+    
+    @IBAction func select9(){
+        number = number*10 + 9
+        label.text = String(number)
+    }
+    
+    
+    @IBAction func plus(){
+        //plusボタンを押した時に、labelに0が表示される
+        label.text = "0"
+        
+        oparation = 1
+        number2 = number
+        number = 0
+    }
+    
+    @IBAction func minus(){
+        label.text = "0"
+        
+        oparation = 2
+        number2 = number
+        number = 0
+    }
+    
+    @IBAction func equal(){
+        if oparation == 1{
+            label.text = String(number + number2)
+        }else if oparation == 2{
+            label.text = String(number2 - number)
+        }
+    }
+    
+    
 }
